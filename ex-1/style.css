@@ -1,1 +1,124 @@
 /* Start coding here */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: fantasy;
+}
+
+@media only screen and (690px <= width < 1024px) {
+  .categories {
+    flex-direction: column;
+  }
+}
+
+.highlight {
+  background: linear-gradient(to bottom, transparent 50%, orange, orange);
+}
+
+.pic img {
+  width: 70px;
+  height: 70px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  letter-spacing: 0.2px;
+  color: rgb(55, 55, 110);
+  position: absolute;
+  top: 170px;
+  left: 30px;
+}
+
+h3 {
+  position: absolute;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  font-size: 1.5rem;
+  color: white;
+  width: 136px;
+  height: 102px;
+  top: 80px;
+  padding-left: 25px;
+}
+
+h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(55, 55, 110);
+  font-size: 1rem;
+  font-weight: 400;
+  position: absolute;
+  top: 210px;
+  left: 30px;
+}
+
+.arrow {
+  position: absolute;
+  top: 214px;
+  left: 283px;
+  width: 32px;
+  height: 32px;
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+}
+
+.item {
+  position: relative;
+  width: 333px;
+  height: 268px;
+  padding: 30px;
+  margin: 20px 30px;
+  padding-right: 125px;
+  border: 1px solid #120505;
+  border-radius: 5px;
+}
+
+.item2 {
+  position: relative;
+  width: 333px;
+  height: 268px;
+  padding: 30px;
+  margin: 20px 30px;
+  padding-right: 125px;
+  background-color: orange;
+  border: 1px solid #120505;
+  border-radius: 5px;
+}
+
+.item:hover {
+  background: rgba(79, 82, 86, 0.362);
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  background-color: hsla(16, 88%, 80%, 0.382);
+}
+
+.line {
+  position: absolute;
+  opacity: 0.5;
+  bottom: 0px;
+  left: 90px;
+}
